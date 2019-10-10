@@ -5,7 +5,6 @@
   "author": "Georg Augusto Schlegel",
   "license": "MIT",
   "scripts": {
-    "serve": "live-server public/",
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
     "dev-server": "webpack-dev-server",
@@ -22,12 +21,7 @@
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "css-loader": "^3.2.0",
-    "enzyme": "^3.10.0",
-    "enzyme-adapter-react-16": "^1.14.0",
-    "enzyme-to-json": "^3.4.2",
     "express": "^4.17.1",
-    "jest": "^24.9.0",
-    "live-server": "^1.2.1",
     "mini-css-extract-plugin": "^0.8.0",
     "moment": "^2.24.0",
     "node-sass": "^4.12.0",
@@ -40,16 +34,20 @@
     "react-modal": "^3.10.1",
     "react-redux": "^7.1.1",
     "react-router-dom": "^5.1.2",
-    "react-test-renderer": "^16.10.2",
     "redux": "^4.0.4",
     "sass-loader": "^8.0.0",
     "style-loader": "^1.0.0",
     "uuid": "^3.3.3",
     "validator": "^11.1.0",
-    "webpack": "^4.41.0",
-    "webpack-dev-server": "^3.8.2"
+    "webpack": "^4.41.0"
   },
   "devDependencies": {
-    "webpack-cli": "^3.3.9"
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "enzyme-to-json": "^3.4.2",
+    "jest": "^24.9.0",
+    "react-test-renderer": "^16.10.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2"
   }
 }
