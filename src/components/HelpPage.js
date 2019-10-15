@@ -2,7 +2,7 @@ import React from 'react';
 
 const HelpPage = () => (
   <div>
-    This is from my help component
+    Isto é do meu componente de ajuda
   </div>
 );
 
