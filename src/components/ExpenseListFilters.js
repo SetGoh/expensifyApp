@@ -2,7 +2,8 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { DateRangePicker } from 'react-dates';
 import { setTextFilter, sortByDate, sortByAmount, setStartDate, setEndDate } from '../actions/filters';
-
+import moment from 'moment';
+moment.locale('pt-br');
 export class ExpenseListFilters extends React.Component {
   state = {
     calendarFocused: null
@@ -50,6 +51,7 @@ export class ExpenseListFilters extends React.Component {
           isOutsideRange={() => false}
           startDateId="start" 
           endDateId="end"
+          hideKeyboardShortcutsPanel={true}
         />
       </div>
     );

@@ -78,6 +78,7 @@ export default class ExpenseForm extends React.Component {
             onFocusChange={this.onFocusChange}
             numberOfMonths={1}
             isOutsideRange={() => false}
+            hideKeyboardShortcutsPanel={true}
           />
           <textarea
             placeholder="Adicione uma nota para sua despesa (opcional)"
